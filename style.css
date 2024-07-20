@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.header{
+    display: block;
+    padding-bottom: 60px;
+}
+.hambrger{
+    display: none;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    list-style: none;
+}
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.img-hnd{
+    height: 16px;
+}
+h1{
+    font-size: 3rem;
+    
+}
+
+.hero-section-left{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    text-align: left;
+    line-height: 18px;
+    
+
+}
+
+.hero-section-right{
+    width: 50%;
+}
+
+.hero-section-right img{
+    height: 650px;
+    width: 650px;
+}
+li{
+    margin: 10px;
+    padding: 10px;
+    
+}
+a{
+    text-decoration: none;
+    padding: 3px;
+  
+}
+a:hover{
+    background-color:#c435c2 ;
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: 600;
+}
+.projects h2{
+    color: azure;
+    text-align: center;
+    text-decoration: underline 3px solid blue;
+}
+.prj-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.prj-img h5{
+    color: azure;
+    text-align: center;
+    
+}
+.prj-img img{
+    height: 400px;
+}
+.block1{
+    display: flex;
+    gap: 15px;
+}
+.block2{
+    display: flex;
+    gap: 15px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+footer h3{
+    font-size: 24px;
+    text-decoration: underline 5px blue;
+}
+.handles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-top: 10px;
+}
+.handles img{
+    height: 24px;
+}
+.footer h3{
+    color: azure;
+    text-decoration: underline 4px blue;
+    text-align: center;
+}
+@media screen and (max-width:768px) {
+    
+    
+
+    .menu{
+        display: none;
+    }
+    .hambrger{
+        display: block;
+        position: absolute;
+        left: 10px;
+        
+    }
+    .hambrger img{ 
+        height:16px ;
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        justify-content:;
+        align-items:center;
+        padding-top: 0px;
+    }
+    .hero-section-left{
+
+
+        text-align: center;
+        line-height: 16px;
+    }
+    .hero-section-left h1{
+        line-height: 40px;
+    }
+    .hero-section-right img{
+        padding-top: 20px;
+        height: 200px;
+        width: 200px;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+    .block1{
+        display: flex;
+        flex-direction: column;
+    }
+    .block2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+   
+}
+
